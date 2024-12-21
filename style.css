@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* Свойства для сброса начальных стилей элементов */
+}
+
+body {
+
+}
+
+header {
+    background-color: #2965f1;
+    width: 1440px;
+    height: 70px;
+    /* Стили для хедера */
+}
+
+header span {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    padding: 23px 1294px 23px 0;
+    height: 146px;
+    width: 24px;
+        /* Стили для текста в хедере IT-INCUBATOR */
+}
+
+.main-section {
+    background-color: #fafaff;
+    padding: 60px 0 60px;
+    /* Стили для первой секции */
+}
+
+.main-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
+    width: 552px;
+    height: 58px;
+    /* Стили для заголовка в первой секции */
+}
+
+.main-text {
+    /* Стили для текста в первой секции */
+}
+
+.main-image {
+    /* Стили для изображения в первой секции */
+}
+
+
+.about-section {
+    /* Стили для второй секции */
+}
+
+select {
+    /* Стили для выпадающего списка */
+}
+
+.section-title {
+    /* Стили для заголовков во второй секции */
+}
+
+.frameworks-list {
+    /* Стили для маркированного списка во второй секции */
+}
+
+.books-list {
+    /* Стили для нумерованного списка во второй секции */
+}
+
+.label {
+    /* Стили для подписей чекбоксов */
+}
+
+.text-field {
+    /* Стили для односточного поля ввода текста */
+}
+
+.btn {
+    /* Стили для кнопки */
+}
+
+.line {
+    /* Стили для линии */
+}
+
+table {
+    /* Стили для таблицы */
+}
+
+th, td {
+    /* Стили для ячеек таблицы */
+}
+
+footer {
+    /* Стили для футера */
+}
+
+.footer-link {
+    /* Стили для футера */
+}
