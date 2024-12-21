@@ -5,7 +5,7 @@
 }
 
 body {
-
+    font-family: "Inter", sans-serif;
 }
 
 header {
@@ -16,7 +16,6 @@ header {
 }
 
 header span {
-    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 20px;
     color: #fff;
@@ -34,7 +33,6 @@ header span {
 }
 
 .main-title {
-    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 48px;
     color: #303030;
@@ -45,7 +43,6 @@ header span {
 }
 
 .main-text {
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #303030;
@@ -76,7 +73,6 @@ select {
 }
 
 .section-title {
-    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 24px;
     color: #303030;
@@ -87,7 +83,6 @@ select {
 .frameworks-list {
     list-style-image: url(./assets/solar_map-arrow-up-bold\ \(1\).jpg);
     padding-left: 30px;
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #303030;
@@ -95,7 +90,6 @@ select {
 }
 
 .books-list {
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #303030;
@@ -104,7 +98,6 @@ select {
 }
 
 .label {
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #303030;
@@ -117,6 +110,11 @@ select {
     width: 330px;
     height: 36px;
     background-color: rgba(255, 255, 255, 0);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(15, 26, 238, 0.3)
+    
     /* Стили для односточного поля ввода текста */
 }
 
@@ -126,7 +124,6 @@ select {
     height: 36px;
     background-color: #2965f1;
     border: none;
-    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 14px;
     color: #fff;
@@ -141,6 +138,9 @@ select {
 table {
     width: 300px;
     height: 196px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #303030;
     /* Стили для таблицы */
 }
 
@@ -152,10 +152,15 @@ footer {
     width: 1440px;
     height: 70px;
     background-color: rgba(163, 167, 255, 0.3);
+    margin-top: 100px;
     /* Стили для футера */
 }
 
 .footer-link {
     text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2965f1;
+    
     /* Стили для футера */
 }
