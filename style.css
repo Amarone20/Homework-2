@@ -21,14 +21,15 @@ header span {
     font-size: 20px;
     color: #fff;
     padding: 23px 1294px 23px 0;
-    height: 146px;
-    width: 24px;
+    width: 146px;
+    height: 24px;
         /* Стили для текста в хедере IT-INCUBATOR */
 }
 
 .main-section {
+    padding: 60px 0 60px 0;
     background-color: #fafaff;
-    padding: 60px 0 60px;
+    min-height: 100vh;
     /* Стили для первой секции */
 }
 
@@ -39,55 +40,107 @@ header span {
     color: #303030;
     width: 552px;
     height: 58px;
+    margin-bottom: 20px;
     /* Стили для заголовка в первой секции */
 }
 
 .main-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #303030;
+    width: 799px;
+    height: 22px;
     /* Стили для текста в первой секции */
 }
 
 .main-image {
+    max-width: 715px;
     /* Стили для изображения в первой секции */
 }
 
 
 .about-section {
+    margin-top: 60px;
+    fill: #fff;
     /* Стили для второй секции */
 }
 
 select {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 150px;
+    height: 36px;
+    background-color: rgba(255, 255, 255, 0);
     /* Стили для выпадающего списка */
 }
 
 .section-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #303030;
+    padding-bottom: 25px;
     /* Стили для заголовков во второй секции */
 }
 
 .frameworks-list {
+    list-style-image: url(./assets/solar_map-arrow-up-bold\ \(1\).jpg);
+    padding-left: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
     /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    padding-left: 20px;
     /* Стили для нумерованного списка во второй секции */
 }
 
 .label {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
     /* Стили для подписей чекбоксов */
 }
 
 .text-field {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 330px;
+    height: 36px;
+    background-color: rgba(255, 255, 255, 0);
     /* Стили для односточного поля ввода текста */
 }
 
 .btn {
+    border-radius: 5px;
+    width: 125px;
+    height: 36px;
+    background-color: #2965f1;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
     /* Стили для кнопки */
 }
 
 .line {
+    margin: 60px 0 60px;
     /* Стили для линии */
 }
 
 table {
+    width: 300px;
+    height: 196px;
     /* Стили для таблицы */
 }
 
@@ -96,9 +149,13 @@ th, td {
 }
 
 footer {
+    width: 1440px;
+    height: 70px;
+    background-color: rgba(163, 167, 255, 0.3);
     /* Стили для футера */
 }
 
 .footer-link {
+    text-decoration: none;
     /* Стили для футера */
 }
